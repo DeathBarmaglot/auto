@@ -3,7 +3,7 @@
  */
 (function($, Edge, compId){
 //images folder
-var im='images/';
+var im='https://raw.githubusercontent.com/DeathBarmaglot/auto/master/images/';
 
 var fonts = {};
 var opts = {
