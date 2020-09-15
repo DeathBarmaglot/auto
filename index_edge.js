@@ -69,7 +69,7 @@ var symbols = {
                 rect: ['245px', '95px','396px','60px','auto', 'auto'],
                 text: "095 125 99 91<br>098 107 70 77",
                 align: "left",
-                font: ['\'Arial Black\', Gadget, sans-serif', 21, "rgba(5,5,5,1.00)", "400", "none", "normal"]
+                font: ['\'Arial Black\', Gadget, sans-serif', 21, "rgba(255,0,0,1.00)", "400", "none", "normal"]
             },
             {
                 id: 'Text3',
@@ -90,8 +90,8 @@ var symbols = {
                 ["style", "top", '2px'],
                 ["style", "line-height", '26px'],
                 ["style", "text-align", 'right'],
-                ["style", "height", '32px'],
                 ["color", "color", 'rgba(255,0,0,1.00)'],
+                ["style", "height", '32px'],
                 ["style", "font-family", 'Arial Black, Gadget, sans-serif'],
                 ["style", "left", '450px'],
                 ["style", "width", '430px']
@@ -119,56 +119,56 @@ var symbols = {
                 ["style", "font-size", '13px']
             ],
             "${_Text2}": [
-                ["style", "top", '95px'],
-                ["style", "font-size", '23px'],
                 ["style", "line-height", 'normal'],
-                ["style", "font-weight", '400'],
-                ["color", "color", 'rgba(5,5,5,1.00)'],
+                ["style", "width", '396px'],
+                ["style", "top", '95px'],
                 ["style", "font-family", '\'Arial Black\', Gadget, sans-serif'],
+                ["color", "color", 'rgba(5,5,5,1.00)'],
+                ["style", "font-weight", '400'],
                 ["style", "left", '447px'],
-                ["style", "width", '396px']
+                ["style", "font-size", '23px']
             ],
             "${__12}": [
                 ["style", "top", '-1px'],
                 ["style", "height", '151px'],
-                ["style", "left", '-316px'],
                 ["style", "clip", [0,738,151,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "left", '-316px'],
                 ["style", "width", '843px']
             ],
             "${_Text2Copy2}": [
-                ["style", "top", '95px'],
-                ["style", "font-size", '23px'],
                 ["style", "line-height", 'normal'],
-                ["style", "font-weight", '400'],
-                ["color", "color", 'rgba(5,5,5,1.00)'],
+                ["style", "width", '396px'],
+                ["style", "top", '95px'],
                 ["style", "font-family", '\'Arial Black\', Gadget, sans-serif'],
+                ["color", "color", 'rgba(5,5,5,1.00)'],
+                ["style", "font-weight", '400'],
                 ["style", "left", '447px'],
-                ["style", "width", '396px']
+                ["style", "font-size", '23px']
             ],
             "${_Text}": [
                 ["style", "top", '2px'],
-                ["style", "font-size", '27px'],
-                ["color", "color", 'rgba(255,0,0,1.00)'],
+                ["style", "width", '190px'],
                 ["style", "height", '32px'],
+                ["color", "color", 'rgba(255,0,0,1.00)'],
                 ["style", "font-family", 'Arial Black, Gadget, sans-serif'],
                 ["style", "left", '432px'],
-                ["style", "width", '190px']
+                ["style", "font-size", '27px']
             ],
             "${_TextCopy2}": [
-                ["style", "top", '42px'],
-                ["style", "font-size", '20px'],
                 ["style", "line-height", '22px'],
-                ["style", "height", '59px'],
+                ["style", "width", '147px'],
+                ["style", "top", '42px'],
                 ["color", "color", 'rgba(0,27,144,1.00)'],
+                ["style", "height", '59px'],
                 ["style", "font-family", 'Arial Black, Gadget, sans-serif'],
                 ["style", "left", '475px'],
-                ["style", "width", '147px']
+                ["style", "font-size", '20px']
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '420px'],
+                ["style", "overflow", 'hidden'],
                 ["style", "height", '150px'],
-                ["style", "overflow", 'hidden']
+                ["style", "width", '420px']
             ],
             "${_TextCopy}": [
                 ["style", "line-height", '16px'],
@@ -182,14 +182,14 @@ var symbols = {
                 ["style", "font-size", '14px']
             ],
             "${_Text2Copy}": [
-                ["style", "line-height", '26px'],
-                ["style", "width", '396px'],
                 ["style", "top", '95px'],
-                ["style", "font-family", '\'Arial Black\', Gadget, sans-serif'],
-                ["color", "color", 'rgba(5,5,5,1.00)'],
+                ["style", "font-size", '21px'],
+                ["style", "line-height", '26px'],
                 ["style", "font-weight", '400'],
+                ["color", "color", 'rgba(255,0,0,1.00)'],
+                ["style", "font-family", '\'Arial Black\', Gadget, sans-serif'],
                 ["style", "left", '447px'],
-                ["style", "font-size", '21px']
+                ["style", "width", '396px']
             ]
         }
     },
@@ -200,19 +200,19 @@ var symbols = {
             duration: 14578,
             autoPlay: true,
             timeline: [
-                { id: "eid215", tween: [ "style", "${__12}", "clip", [0,738,151,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,738,151,0]}], position: 0, duration: 0 },
-                { id: "eid229", tween: [ "style", "${_TextCopy}", "left", '213px', { fromValue: '475px'}], position: 5870, duration: 620, easing: "easeOutCubic" },
-                { id: "eid230", tween: [ "style", "${_TextCopy}", "left", '475px', { fromValue: '213px'}], position: 10124, duration: 620, easing: "easeOutCubic" },
-                { id: "eid226", tween: [ "style", "${_TextCopy4}", "left", '-14px', { fromValue: '450px'}], position: 5679, duration: 620, easing: "easeOutCubic" },
-                { id: "eid233", tween: [ "style", "${_TextCopy4}", "left", '450px', { fromValue: '-14px'}], position: 10124, duration: 620, easing: "easeOutCubic" },
                 { id: "eid214", tween: [ "style", "${__12}", "left", '-2px', { fromValue: '-316px'}], position: 0, duration: 369 },
                 { id: "eid246", tween: [ "style", "${__12}", "left", '-316px', { fromValue: '-2px'}], position: 13881, duration: 369 },
+                { id: "eid229", tween: [ "style", "${_TextCopy}", "left", '213px', { fromValue: '475px'}], position: 5870, duration: 620, easing: "easeOutCubic" },
+                { id: "eid230", tween: [ "style", "${_TextCopy}", "left", '475px', { fromValue: '213px'}], position: 10124, duration: 620, easing: "easeOutCubic" },
+                { id: "eid240", tween: [ "style", "${_Text3}", "left", '-63px', { fromValue: '188px'}], position: 10624, duration: 750, easing: "easeOutCubic" },
+                { id: "eid244", tween: [ "style", "${_Text3}", "left", '188px', { fromValue: '-63px'}], position: 13750, duration: 828, easing: "easeOutCubic" },
+                { id: "eid226", tween: [ "style", "${_TextCopy4}", "left", '-14px', { fromValue: '450px'}], position: 5679, duration: 620, easing: "easeOutCubic" },
+                { id: "eid233", tween: [ "style", "${_TextCopy4}", "left", '450px', { fromValue: '-14px'}], position: 10124, duration: 620, easing: "easeOutCubic" },
                 { id: "eid219", tween: [ "style", "${_Text2Copy}", "left", '255px', { fromValue: '447px'}], position: 1306, duration: 620, easing: "easeOutCubic" },
                 { id: "eid238", tween: [ "style", "${_Text2Copy}", "left", '447px', { fromValue: '255px'}], position: 10124, duration: 620, easing: "easeOutCubic" },
                 { id: "eid217", tween: [ "style", "${_Text}", "left", '215px', { fromValue: '432px'}], position: 549, duration: 620, easing: "easeOutCubic" },
                 { id: "eid223", tween: [ "style", "${_Text}", "left", '432px', { fromValue: '215px'}], position: 5250, duration: 620, easing: "easeOutCubic" },
-                { id: "eid240", tween: [ "style", "${_Text3}", "left", '-63px', { fromValue: '188px'}], position: 10624, duration: 750, easing: "easeOutCubic" },
-                { id: "eid244", tween: [ "style", "${_Text3}", "left", '188px', { fromValue: '-63px'}], position: 13750, duration: 828, easing: "easeOutCubic" },
+                { id: "eid215", tween: [ "style", "${__12}", "clip", [0,738,151,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,738,151,0]}], position: 0, duration: 0 },
                 { id: "eid218", tween: [ "style", "${_TextCopy2}", "left", '273px', { fromValue: '475px'}], position: 750, duration: 620, easing: "easeOutCubic" },
                 { id: "eid222", tween: [ "style", "${_TextCopy2}", "left", '475px', { fromValue: '273px'}], position: 5429, duration: 620, easing: "easeOutCubic" }            ]
         }
